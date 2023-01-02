@@ -6,11 +6,9 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:29:42 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/02 12:29:43 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/01/02 13:45:13 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
 
 #include "libft.h"
 #include <string.h>

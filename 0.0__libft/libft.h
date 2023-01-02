@@ -6,11 +6,9 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:30:52 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/02 12:30:53 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/01/02 13:46:14 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
 
 #ifndef LIBFT_H
 # define LIBFT_H
