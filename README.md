@@ -6,7 +6,7 @@
 <br>
 
 # 🖥 Born2beroot 
-► [Project description and instalation tutorial](https://github.com/gemartin99/Born2beroot-Tutorial)
+► [Project description and instalation tutorial](https://github.com/juansimmendinger/42_Core/tree/main/1.2__Born2beroot)
 <br>
 <br>
 
