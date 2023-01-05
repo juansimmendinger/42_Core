@@ -36,7 +36,7 @@ int ft_printf(char const *s, ...);
 
 <img width="538" alt="Screen Shot 2022-10-29 at 6 54 40 PM" src="https://user-images.githubusercontent.com/66915274/198843655-23c772e4-1465-458b-9642-019bc62456dc.png">
 
-## Autorized Functions 
+## Authorized Functions 
 
 | Función  | Descripción														 			|
 |-------|-----------------------------------------------------------------------------------|
