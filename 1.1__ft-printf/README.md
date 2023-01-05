@@ -1,4 +1,4 @@
-# 📝 Creating your own PRINTF function
+# 📝 Creating your own Printf() function
 
 ## Description
 
