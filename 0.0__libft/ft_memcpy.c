@@ -6,7 +6,7 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:29:39 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/02 13:45:11 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/01/02 15:23:41 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_memcpy(void *restrict dest, const void *restrict src, size_t n)
 	unsigned char		*d;
 	const unsigned char	*s;
 
-	if (!dest && ! src)
+	if (!dest && !src)
 		return (NULL);
 	d = (unsigned char *) dest;
 	s = (unsigned char *) src;

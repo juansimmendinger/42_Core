@@ -6,7 +6,7 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:30:23 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/02 13:45:52 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/01/04 15:33:45 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 size_t	ft_strlen(const char *s)
 {
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	if (*s == NULL)
+		return (0);
+	return (ft_strlen(++s) + 1);
 }
