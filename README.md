@@ -16,6 +16,6 @@
 <br>
 
 # 📖 Get_Next_Line 
-► [Project description and code](https://github.com/juansimmendinger/42_Core/tree/main/1.1__ft-printf)
+► [Project description and code](https://github.com/juansimmendinger/42_Core/tree/main/1.0__get-next-line)
 <br>
 <br>
