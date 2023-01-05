@@ -50,8 +50,6 @@ int ft_printf(char const *s, ...);
 
 # Contact 📥
 
-### Contact Me in case you wish to add more resources😁
-
 ◦ Email: jsimmend@student.42wolfsburg.com
 
 ◦ Linkedin: https://www.linkedin.com/in/juan-simmendinger-b78874101/
