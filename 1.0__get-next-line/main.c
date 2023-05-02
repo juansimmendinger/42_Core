@@ -5,10 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/02 07:57:36 by nikito            #+#    #+#             */
-/*   Updated: 2023/05/02 10:33:03 by jsimmend         ###   ########.fr       */
+/*   Created: 2023/05/02 10:39:24 by jsimmend          #+#    #+#             */
+/*   Updated: 2023/05/02 10:39:25 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "../include/get_next_line.h"
 #include <fcntl.h>
