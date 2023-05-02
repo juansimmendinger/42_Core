@@ -6,7 +6,7 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:29:09 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/04 14:20:20 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/02/13 17:07:11 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		return ;
 	}
 	last = ft_lstlast(*lst);
-	last -> next = new;
+	last->next = new;
 }

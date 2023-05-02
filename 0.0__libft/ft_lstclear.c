@@ -6,7 +6,7 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:29:14 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/02 13:44:37 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/02/13 17:07:24 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ static void	ft_lstiteri(t_list *lst, void (*del)(void *))
 {
 	if (!lst)
 		return ;
-	if (lst -> next != NULL)
-		ft_lstiteri(lst -> next, (*del));
+	if (lst->next != NULL)
+		ft_lstiteri(lst->next, (*del));
 	ft_lstdelone(lst, (*del));
 }
 

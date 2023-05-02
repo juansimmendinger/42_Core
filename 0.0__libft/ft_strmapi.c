@@ -6,7 +6,7 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:30:26 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/02 13:45:54 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/02/13 17:04:31 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	if (!s)
 		return (ft_strdup(""));
 	len = ft_strlen(s);
-	newstr = (char *) malloc(sizeof(char) * (len + 1));
+	newstr = (char *)malloc(sizeof(char) * (len + 1));
 	if (!newstr)
 		return (NULL);
 	i = 0;

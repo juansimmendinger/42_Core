@@ -6,7 +6,7 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:30:07 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/01/02 13:45:37 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/02/13 17:04:20 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strdup(const char *s)
 	char	*newstr;
 
 	len = ft_strlen(s);
-	newstr = (char *) malloc(sizeof(char) * (len + 1));
+	newstr = (char *)malloc(sizeof(char) * (len + 1));
 	if (!newstr)
 		return (NULL);
 	return ((char *) ft_memcpy(newstr, s, (len + 1)));

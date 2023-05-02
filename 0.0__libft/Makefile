@@ -6,11 +6,9 @@
 #    By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/02 12:30:56 by jsimmend          #+#    #+#              #
-#    Updated: 2023/01/02 12:30:57 by jsimmend         ###   ########.fr        #
+#    Updated: 2023/02/13 17:01:43 by jsimmend         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
-
 
 NAME = libft.a
 
@@ -30,7 +28,7 @@ OBJS = $(SRCS:.c=.o)
 OBJS_BONUS = $(SRCS_BONUS:.c=.o)
 
 CC = gcc
-CFLAGS =
+CFLAGS = -Wall -Werror -Wextra -o3 
 ARFLAGS = -rcs
 RM = rm -rf
 
