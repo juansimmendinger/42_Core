@@ -6,7 +6,7 @@
 /*   By: jsimmend <jsimmend@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 12:30:52 by jsimmend          #+#    #+#             */
-/*   Updated: 2023/02/13 17:03:46 by jsimmend         ###   ########.fr       */
+/*   Updated: 2023/05/10 10:39:27 by jsimmend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,13 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putendl_fd(char	*s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char *s, int fd);
+
+
+/* The content is a pointer to void, which means it can hold a pointer to any type of data. 
+The next member is a pointer to another s_list structure, which means it can be used to create a linked list of s_list structures.
+
+The typedef keyword is used to create a new type named t_list that is equivalent to struct s_list. 
+This allows the struct to be referred to as t_list instead of struct s_list throughout the program, which can make the code more readable and easier to maintain. */
 
 typedef struct s_list
 {
